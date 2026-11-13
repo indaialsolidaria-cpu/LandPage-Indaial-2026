@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Indaial Solidária — Movimento que inspira</title>
+<meta name="description" content="A Indaial Solidária aproxima moradores, empresas e voluntários das organizações que já atuam em Indaial.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="ong.css">
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs>
+<symbol id="heart" viewBox="0 0 64 64"><defs><clipPath id="hc"><path d="M32 58S4 38 4 20C4 12 10 6 18 6c6 0 10 4 14 8 4-4 8-8 14-8 8 0 14 6 14 14 0 18-28 38-28 38z"/></clipPath><clipPath id="hl"><rect x="0" y="0" width="38" height="64"/></clipPath><clipPath id="hr"><rect x="26" y="0" width="38" height="64"/></clipPath><clipPath id="hm"><rect x="26" y="0" width="12" height="64"/></clipPath></defs><path d="M32 58S4 38 4 20C4 12 10 6 18 6c6 0 10 4 14 8 4-4 8-8 14-8 8 0 14 6 14 14 0 18-28 38-28 38z" fill="#fff" stroke="none"/><g clip-path="url(#hc)" fill="none" stroke-linecap="butt"><g clip-path="url(#hl)" stroke="#2DB52F" stroke-width="7"><path d="M-28 0L36 64M-14 0L50 64M0 0L64 64M14 0L78 64M28 0L92 64"/></g><g clip-path="url(#hr)"><path d="M36 0L-28 64M50 0L-14 64M64 0L0 64M78 0L14 64M92 0L28 64" stroke="#fff" stroke-width="11"/><path d="M36 0L-28 64M50 0L-14 64M64 0L0 64M78 0L14 64M92 0L28 64" stroke="#FFD000" stroke-width="7"/></g><g clip-path="url(#hm)" stroke="#2DB52F" stroke-width="7"><path d="M0 0L64 64M28 0L92 64"/></g></g></symbol>
+<symbol id="users" viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.9M16 3.1a4 4 0 0 1 0 7.8"/></symbol>
+<symbol id="hand" viewBox="0 0 24 24"><path d="M11 17l2 2a1 1 0 0 0 3-3M14 14l2.5 2.5a1 1 0 0 0 3-3L15 9l-3 1-3-3 3-3 4 1 5 4M2 11l5-5 5 5-5 5z" transform="translate(0 1)"/></symbol>
+<symbol id="bld" viewBox="0 0 24 24"><path d="M3 21h18M5 21V7l7-4 7 4v14M9 9h1M14 9h1M9 13h1M14 13h1M10 21v-4h4v4"/></symbol>
+<symbol id="give" viewBox="0 0 24 24"><path d="M11 14h2a2 2 0 0 0 0-4H9L5 13H2v7h3l4 1 8-2 5-4a2 2 0 0 0-3-2.5l-4 2.5M15 4.5a2.3 2.3 0 0 1 3.5 0c1 1 1 2.5-.3 3.7L15 11l-3.2-2.8c-1.300-1.200-1.300-2.700-.3-3.700a2.300 2.300 0 0 1 3.500 0z"/></symbol>
+<symbol id="pin" viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></symbol>
+<symbol id="net" viewBox="0 0 24 24"><circle cx="12" cy="5" r="2.5"/><circle cx="5" cy="18" r="2.5"/><circle cx="19" cy="18" r="2.5"/><path d="M10.500 7l-4 9M13.500 7l4 9M7.500 18h9"/></symbol>
+<symbol id="box" viewBox="0 0 24 24"><path d="M21 8l-9-5-9 5v8l9 5 9-5zM3.300 7.500L12 12.500l8.700-5M12 22.500v-10"/></symbol>
+<symbol id="coin" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M15 9.500a3 3 0 0 0-3-1.500c-1.700 0-3 .9-3 2s1.300 1.800 3 2 3 .9 3 2-1.300 2-3 2a3 3 0 0 1-3-1.500M12 6v2M12 16v2"/></symbol>
+<symbol id="fam" viewBox="0 0 24 24"><circle cx="7" cy="5" r="2"/><circle cx="17" cy="5" r="2"/><circle cx="12" cy="12" r="1.600"/><path d="M4 21v-7a3 3 0 0 1 6 0v7M14 21v-7a3 3 0 0 1 6 0v7M10 21v-3h4v3"/></symbol>
+<symbol id="p2" viewBox="0 0 24 24"><circle cx="12" cy="7" r="3.500"/><path d="M5 21a7 7 0 0 1 14 0"/></symbol>
+<symbol id="cart" viewBox="0 0 24 24"><circle cx="9" cy="20" r="1.500"/><circle cx="18" cy="20" r="1.500"/><path d="M2 3h3l2.700 12.400a2 2 0 0 0 2 1.600h8a2 2 0 0 0 2-1.600L21.500 8H6"/></symbol>
+<symbol id="milk" viewBox="0 0 24 24"><path d="M8 2h8M9 2v4L6 9v12a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V9l-3-3V2M6 13h12"/></symbol>
+<symbol id="chev" viewBox="0 0 24 24"><path d="M6 9l6 6 6-6"/></symbol>
+<symbol id="ig" viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><path d="M17.500 6.500h.01"/></symbol>
+<symbol id="sr" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.300-4.300"/></symbol>
+<symbol id="ar" viewBox="0 0 24 24"><path d="M12 19V5M5 12l7-7 7 7"/></symbol>
+<symbol id="lg" viewBox="0 0 64 64"><use href="#heart" width="64" height="64"/></symbol>
+<symbol id="heart-solid" viewBox="0 0 24 24"><path d="M12 21s-9-5.8-9-12a5 5 0 0 1 9-3 5 5 0 0 1 9 3c0 6.2-9 12-9 12z"/></symbol>
+<symbol id="fb" viewBox="0 0 24 24"><path fill="currentColor" d="M13.5 21v-8h2.7l.4-3h-3.1V8.1c0-.9.3-1.6 1.6-1.6h1.7V3.8c-.3 0-1.4-.1-2.6-.1-2.6 0-4.3 1.6-4.3 4.5V10H7v3h2.9v8h3.6z"/></symbol>
+</defs></svg>
+<div id="bar"></div>
+<header id="hd"><div class="c"><nav class="nav">
+<a href="#home" class="logo"><svg><use href="#lg"/></svg><span>Indaial Solidária</span></a>
+<div class="links" id="lk">
+<a href="#about">Quem somos</a><a href="#pillars">Temas</a><a href="#instituicoes">ONGs Participantes</a><a href="#impact">Impacto</a>
+<a href="#doar" class="donate-nav">Doe via Pix</a>
+<a href="#participate" class="cta">Quero somar</a></div>
+<button class="mt" id="mt" aria-label="Abrir menu"><span></span><span></span><span></span></button>
+</nav></div></header>
+
+<section class="hero" id="home">
+<div class="blob b1"></div><div class="blob b2"></div>
+<div class="c hg">
+<div>
+<div class="badge"><svg class="badge-heart" aria-hidden="true"><use href="#heart-solid"/></svg><span>Um novo perfil · A campanha continua</span></div>
+<h1>Movimento <em><span id="ty"></span><span class="cur"></span></em></h1>
+<p class="tag">Doe movimento. Doe propósito. Doe com a cidade.</p>
+<p class="hd">Conexões que fazem a solidariedade circular em Indaial. A Indaial Solidária aproxima moradores, empresas e voluntários das organizações que já atuam na cidade.</p>
+<div class="ha"><a href="#participate" class="btn bp"><svg class="i w"><use href="#heart"/></svg>Quero somar</a><a href="#instituicoes" class="btn bp" style="background:#fff;border:1.5px solid rgba(23,75,67,.18)">Conheça as ONGs</a></div>
+</div>
+<div class="art" id="art">
+<svg viewBox="0 0 400 400" fill="none">
+<defs><linearGradient id="g1" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FDCE02"/><stop offset="1" stop-color="#F0A500"/></linearGradient><linearGradient id="g2" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2E8B57"/><stop offset="1" stop-color="#174B43"/></linearGradient></defs>
+<circle cx="200" cy="200" r="170" fill="rgba(255,255,255,.05)" stroke="rgba(255,255,255,.12)"/>
+<circle cx="200" cy="200" r="120" stroke="rgba(255,255,255,.1)" stroke-dasharray="3 7"/>
+<g stroke="rgba(253,206,2,.55)" stroke-width="2" class="dash"><path d="M200 200L90 90M200 200L320 100M200 200L330 290M200 200L80 300M90 90L320 100M320 100L330 290M330 290L80 300M80 300L90 90"/></g>
+<g class="bob profile-orbit"><circle cx="90" cy="90" r="24" fill="#fff" stroke="#174B43" stroke-opacity=".12" stroke-width="1"/><use href="#p2" x="76" y="76" width="28" height="28" stroke="#174B43" stroke-width="2" style="color:#174B43"/></g>
+<g class="bob" style="animation-delay:-1.500s"><circle cx="320" cy="100" r="26" fill="#FDCE02"/><use href="#bld" x="306" y="86" width="28" height="28" stroke="#174B43" stroke-width="2"/></g>
+<g class="bob" style="animation-delay:-3s"><circle cx="330" cy="290" r="24" fill="#fff"/><use href="#users" x="316" y="276" width="28" height="28" stroke="#174B43" stroke-width="2"/></g>
+<g class="bob" style="animation-delay:-4s"><circle cx="80" cy="300" r="26" fill="#FDCE02"/><use href="#give" x="66" y="286" width="28" height="28" stroke="#174B43" stroke-width="2"/></g>
+<g class="hb"><use href="#heart" x="141" y="118" width="118" height="118"/></g>
+<g fill="#174B43"><rect x="160" y="320" width="14" height="30" rx="2"/><rect x="180" y="308" width="16" height="42" rx="2"/><rect x="202" y="316" width="14" height="34" rx="2"/><rect x="222" y="326" width="18" height="24" rx="2"/></g>
+<path d="M120 350h160" stroke="rgba(255,255,255,.3)" stroke-width="2" stroke-linecap="round"/>
+</svg></div>
+</div></section>
+
+<div class="mq" aria-hidden="true"><div id="mqi"></div></div>
+
+<section class="ab" id="about"><div class="c ag">
+<div class="rv"><span class="lb">Quem somos</span><h2 class="ti">Aproximar quem quer ajudar de quem transforma Indaial</h2>
+<p>A Indaial Solidária é uma mobilização que fortalece as organizações da sociedade civil da cidade. Hoje, nosso foco é dar visibilidade às organizações participantes e conectá-las a quem pode contribuir.</p><p><b>Nova liderança, mesmo propósito.</b></p>
+<div class="social-follow">
+<a class="btn bp" href="https://www.facebook.com/indaialsolidariaoficial" target="_blank" rel="noopener noreferrer"><svg class="i w" aria-hidden="true"><use href="#fb"/></svg>Siga no Facebook</a>
+<a class="btn bp" href="https://www.instagram.com/indaialsolidariaoficial/" target="_blank" rel="noopener noreferrer"><svg class="i w" aria-hidden="true"><use href="#ig"/></svg>Siga no Instagram</a>
+</div></div>
+<div class="au">
+<div class="ac rv"><div class="ic y"><svg class="i"><use href="#users"/></svg></div><div><h4>Moradores</h4><p>que querem contribuir.</p></div></div>
+<div class="ac rv" style="--d:.12s"><div class="ic"><svg class="i"><use href="#hand"/></svg></div><div><h4>Empresas e voluntários</h4><p>que podem somar.</p></div></div>
+<div class="ac rv" style="--d:.24s"><div class="ic m"><svg class="i"><use href="#bld"/></svg></div><div><h4>Organizações</h4><p>que já atuam na cidade.</p></div></div>
+</div></div></section>
+
+<section id="pillars"><div class="c">
+<div class="rv"><span class="lb">O que você vai encontrar</span><h2 class="ti">Quatro temas para acompanhar</h2><p class="sd">Conheça as organizações, suas causas e as maneiras de contribuir.</p></div>
+<div class="pg">
+<div class="pc rv"><span class="pn">01</span><div class="ic"><svg class="i"><use href="#bld"/></svg></div><h3>Quem faz</h3><p>Organizações, projetos e pessoas por trás de cada causa.</p></div>
+<div class="pc rv" style="--d:.1s"><span class="pn">02</span><div class="ic y"><svg class="i"><use href="#give"/></svg></div><h3>Como ajudar</h3><p>Pedidos e formas de contribuição, com instrução clara.</p></div>
+<div class="pc rv" style="--d:.2s"><span class="pn">03</span><div class="ic m"><svg class="i"><use href="#pin"/></svg></div><h3>Impacto local</h3><p>Os problemas sociais ligados a cada causa e quem atua para enfrentá-los.</p></div>
+<div class="pc rv" style="--d:.3s"><span class="pn">04</span><div class="ic l"><svg class="i"><use href="#net"/></svg></div><h3>Comunidade</h3><p>Parcerias, voluntariado e ações que acontecem na cidade.</p></div>
+</div></div></section>
+
+<section class="ins" id="instituicoes"><div class="c">
+<div class="rv"><span class="lb">ONGs Participantes</span><h2 class="ti">Conheça as ONGs que fazem a diferença</h2><p class="sd">Clique em uma ONG para abrir a apresentação completa: quem são, como atuam, projetos, fotos, vídeos e formas de apoiar.</p><p class="campaign-note">Esta campanha está sendo iniciada em 2026 em conjunto com estas ONGs.</p></div>
+<div class="fl rv"><label class="search-wrap"><svg class="i" aria-hidden="true"><use href="#sr"/></svg><input id="q" type="search" placeholder="Buscar ONG ou causa…" aria-label="Buscar ONG ou causa"><span id="qn" aria-live="polite"></span></label></div>
+<div class="ig2" id="ig2"></div><p class="in-no" id="no">Nenhuma ONG encontrada para essa busca.</p></div></section>
+<div id="ongv" role="dialog" aria-modal="true" aria-label="Apresentação da ONG"></div>
+<div id="lb"></div>
+<section class="im" id="impact"><div class="c">
+<div class="ct rv"><span class="lb">Memória da campanha</span><h2 class="ti">Uma iniciativa que já faz parte<br>da história solidária de Indaial</h2><p class="sd">Relembre o que a cidade fez junto na edição de 2021, o segundo ano da iniciativa.</p></div>
+<div class="sg">
+<div class="sc rv"><div class="ic"><svg class="i"><use href="#box"/></svg></div><div class="sn" data-p="+" data-t="4" data-s=" t">0</div><div class="sl">de alimentos arrecadados</div></div>
+<div class="sc f rv" style="--d:.1s"><div class="ic"><svg class="i"><use href="#coin"/></svg></div><div class="sn" data-p="R$ " data-t="4340">0</div><div class="sl">em dinheiro, usados integralmente em cestas básicas</div></div>
+<div class="sc rv" style="--d:.2s"><div class="ic m"><svg class="i"><use href="#fam"/></svg></div><div class="sn" data-t="265">0</div><div class="sl">famílias atendidas</div></div>
+<div class="sc rv"><div class="ic y"><svg class="i"><use href="#users"/></svg></div><div class="sn" data-t="961">0</div><div class="sl">pessoas beneficiadas</div></div>
+<div class="sc rv" style="--d:.1s"><div class="ic"><svg class="i"><use href="#cart"/></svg></div><div class="sn" data-t="289">0</div><div class="sl">cestas básicas</div></div>
+<div class="sc rv" style="--d:.2s"><div class="ic m"><svg class="i"><use href="#milk"/></svg></div><div class="sn" data-t="720" data-s=" L">0</div><div class="sl">de leite</div></div>
+</div>
+<div class="src rv">Fonte: Jornal do Médio Vale, 14/01/2022 · resultados da edição de 2021.<br>Dados históricos, que não representam a campanha atual.</div>
+</div></section>
+
+<section class="pt" id="participate"><div class="c">
+<div class="pt-head rv"><span class="lb">Participe</span><h2 class="ti">Você pode contribuir com tempo, recursos, serviços ou divulgação</h2><p>Convidamos sem pressionar. Em cada publicação, você verá o que pode fazer, como contribuir, quem recebe e o destino dos recursos.</p></div>
+<div class="st">
+<div class="si rv"><div class="sx">1</div><div><h4>Siga</h4><p>Acompanhe a Indaial Solidária e conheça as organizações.</p></div></div>
+<div class="si rv" style="--d:.12s"><div class="sx">2</div><div><h4>Compartilhe</h4><p>Ajude a história a chegar a mais pessoas.</p></div></div>
+<div class="si rv" style="--d:.24s"><div class="sx">3</div><div><h4>Marque quem soma</h4><p>Convide quem também faz parte dessa rede.</p></div></div>
+<div class="si rv donation-card" id="doar" style="--d:.36s">
+  <div class="donation-copy"><span class="donation-label">Contribua com a campanha</span><h4>Doe via Pix</h4><p class="donation-call">Doe qualquer valor.</p><p>Abra o aplicativo do seu banco, escolha Pix e escaneie o QR Code.</p></div>
+  <div class="qr-box"><img src="assets/qrcode.jpg" alt="QR Code Pix da Indaial Solidária"></div>
+</div>
+</div></div></section>
+
+<section class="fn" id="end">
+<div id="hf"></div>
+<div class="c"><h2 class="rv">Juntos, podemos fortalecer<br>quem transforma Indaial</h2>
+<div class="fs rv"><div><b>✓</b>Conheça as organizações.</div><div><b>✓</b>Descubra suas causas.</div><div><b>✓</b>Encontre uma forma de somar.</div></div>
+<a href="https://www.instagram.com/indaialsolidariaoficial/" target="_blank" rel="noopener" class="btn bp rv"><svg class="i w"><use href="#heart"/></svg>Siga a Indaial Solidária</a></div></section>
+
+<footer><div class="c"><div class="fc">
+<div><div class="logo"><svg width="40" height="40"><use href="#lg"/></svg><span>Indaial Solidária</span></div><p class="b">Movimento que inspira. Doe movimento. Doe propósito. Doe com a cidade.</p></div>
+<div><h5>Navegação</h5><ul><li><a href="#about">Quem somos</a></li><li><a href="#pillars">Temas</a></li><li><a href="#instituicoes">ONGs Participantes</a></li><li><a href="#impact">Impacto</a></li><li><a href="#participate">Participe</a></li></ul></div>
+<div><h5>Redes sociais</h5><div class="social-links"><a href="https://www.facebook.com/indaialsolidariaoficial" target="_blank" rel="noopener noreferrer" class="so" aria-label="Facebook"><svg class="i" aria-hidden="true"><use href="#fb"/></svg></a><a href="https://www.instagram.com/indaialsolidariaoficial/" target="_blank" rel="noopener noreferrer" class="so" aria-label="Instagram"><svg class="i"><use href="#ig"/></svg></a></div></div>
+</div><div class="fb">©️ 2026 Indaial Solidária. Todos os direitos reservados.</div></div></footer>
+<button id="up" aria-label="Voltar ao topo"><svg class="i"><use href="#ar"/></svg></button>
+
+<script src="Main.js"></script>
+<script src="Data.js"></script>
+<script src="ONG.js"></script>
+</body>
+</html>
