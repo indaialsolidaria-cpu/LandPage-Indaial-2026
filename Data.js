@@ -1,4 +1,3 @@
-
 /* =====================================================================
    DADOS DAS ONGs — Indaial Solidária 2026
    Edite apenas este arquivo para atualizar textos, contatos e mídias.

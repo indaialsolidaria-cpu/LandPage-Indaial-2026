@@ -1,4 +1,3 @@
-
 /* =====================================================================
    main.js — comportamentos gerais da página
    (menu, barra de progresso, animações de entrada, contadores, hero)
